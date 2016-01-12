@@ -13,6 +13,11 @@ Refactoring: Adriano Maia (adriano@usk.bz)
 ---------------
 NotifyMyAndroid is a Prowl-like application for the Android. Notifications can be sent from your application Android device using push. NMA has an extensive API, which allows your scripts to integrate beautifully. (source: http://nma.usk.bz/)
 
+### Install
+Download the zip and extract to a directory of your choosing, then run:
+
+    python setup.py install
+
 ### How it works:
 First, import the module:
 
@@ -39,7 +44,7 @@ Or set or change the providerkey
     p.developerkey("developerkey")
 
 #### Notification or Push or Add
-    
+
     p.push(application, event, description, (opt) url, (opt) priority, (opt) batch mode)
 
 ##### Application

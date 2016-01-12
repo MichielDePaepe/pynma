@@ -1,4 +1,7 @@
 *.pyc
 *~
+dist
+build
 myapikey
 myproviderkey
+PyNMA.egg-info
